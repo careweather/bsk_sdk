@@ -44,6 +44,17 @@ they will be appended after the SDK defaults.
 See [`examples/custom-atm-plugin/`](examples/custom-atm-plugin/) for a
 complete working example.
 
+## Rust modules (experimental)
+
+Basilisk modules can also be implemented in Rust, with the config struct,
+C header, and FFI shim generated from a single Rust source of truth. See
+the Basilisk documentation's
+[Writing a Rust Plugin](https://avslab.github.io/basilisk/develop/Plugins/writingRust.html)
+page for the full feature reference (module lifecycle, messaging,
+build/packaging/testing) and
+[`examples/rust-mrp-plugin/`](examples/rust-mrp-plugin/) for a minimal
+worked example.
+
 ## Syncing from Basilisk
 
 The SDK vendors a curated subset of Basilisk headers and sources. These are

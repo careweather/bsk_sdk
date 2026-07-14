@@ -144,5 +144,6 @@ install(
   FILES
     "${CMAKE_CURRENT_SOURCE_DIR}/cmake/bsk_add_swig_module.cmake"
     "${CMAKE_CURRENT_SOURCE_DIR}/cmake/bsk_generate_messages.cmake"
+    "${CMAKE_CURRENT_SOURCE_DIR}/cmake/bsk_add_rust_module.cmake"
   DESTINATION "${CMAKE_INSTALL_LIBDIR}/cmake/bsk-sdk"
 )
